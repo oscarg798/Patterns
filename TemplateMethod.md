@@ -63,8 +63,7 @@ class SundayMorning: MyMorning() {
 }
 ```
 
-Debemos notar que nuestras implementaciones concretas no necesitan sobreescribir el metodo  `drinkSomething` ya que su clase padre lo hace
-y nosotros no añadimos ningun comportamiento al mismo. 
+Debemos notar que nuestras implementaciones concretas no necesitan sobreescribir el metodo  `takeBreakfast` ya que su clase padre lo hace y nosotros no añadimos ningun comportamiento al mismo. 
 
 Tambien podriamos si queremos en nuestro caso añadir una implementacion por defecto al metodo `drinkSomething` para lo casos en 
 que deseamos tomar jugos de naranja, y para los domingos solo no llamar el super(). Nuestro ejemplo quedaria de la siguiente manera
