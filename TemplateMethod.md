@@ -95,7 +95,6 @@ class MySundayMorning: MyMorning() {
 
 
     override fun drinkSomething() {
-        super.drinkSomething()
         //Drink some coffee
     }
 }
